@@ -1,0 +1,4 @@
+/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles/glad.dir
+/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles/sdl-imgui.dir
+/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles/edit_cache.dir
+/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles/rebuild_cache.dir

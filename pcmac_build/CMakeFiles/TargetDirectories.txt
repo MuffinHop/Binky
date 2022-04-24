@@ -1,0 +1,4 @@
+/Users/sofiasavilampi/Repositories/Binky/pcmac_build/CMakeFiles/glad.dir
+/Users/sofiasavilampi/Repositories/Binky/pcmac_build/CMakeFiles/sdl-imgui.dir
+/Users/sofiasavilampi/Repositories/Binky/pcmac_build/CMakeFiles/edit_cache.dir
+/Users/sofiasavilampi/Repositories/Binky/pcmac_build/CMakeFiles/rebuild_cache.dir

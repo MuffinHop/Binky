@@ -1,0 +1,98 @@
+[
+    {
+      "Name": "Rabbit",
+      "SourceSpriteSet": "bun.png",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "Timeline": [
+        {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "Frame": 0,
+          "FlipX": 0,
+          "FlipY": 0,
+          "Interpolate": 0,
+          "Beat": 0
+        },
+        {
+          "X": 3,
+          "Y": 4,
+          "Z": 0,
+          "Frame": 0,
+          "FlipX": 1,
+          "FlipY": 0,
+          "Interpolate": 1,
+          "Beat": 3
+        },
+        {
+          "X": 32,
+          "Y": 8,
+          "Z": 0,
+          "Frame": 1,
+          "FlipX": 0,
+          "FlipY": 1,
+          "Interpolate": 0,
+          "Beat": 7
+        },
+        {
+          "X": 32,
+          "Y": 53,
+          "Z": 0,
+          "Frame": 1,
+          "FlipX": 0,
+          "FlipY": 1,
+          "Interpolate": 0,
+          "Beat": 12
+        },
+        {
+          "X": 32,
+          "Y": 127,
+          "Z": 0,
+          "Frame": 1,
+          "FlipX": 0,
+          "FlipY": 1,
+          "Interpolate": 0,
+          "Beat": 20
+        }
+      ]
+    },
+    {
+      "Name": "Lop",
+      "SourceSpriteSet": "lop.png",
+      "FrameWidth": 256,
+      "FrameHeight": 256,
+      "Timeline": [
+        {
+          "X": 777,
+          "Y": 321,
+          "Z": 0,
+          "Frame": 0,
+          "FlipX": 0,
+          "FlipY": 0,
+          "Interpolate": 0,
+          "Beat": 0
+        },
+        {
+          "X": 700,
+          "Y": 321,
+          "Z": 0,
+          "Frame": 0,
+          "FlipX": 1,
+          "FlipY": 0,
+          "Interpolate": 1,
+          "Beat": 2
+        },
+        {
+          "X": 600,
+          "Y": 300,
+          "Z": 0,
+          "Frame": 0,
+          "FlipX": 0,
+          "FlipY": 1,
+          "Interpolate": 0,
+          "Beat": 9
+        }
+      ]
+    }
+]
