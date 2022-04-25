@@ -1,4 +1,6 @@
 #include "Actor.hpp"
+#include <stdint.h>
+#include <inttypes.h>
 namespace RabbitEngine
 {
     Uint32 getPixel(SDL_Surface *surface, int x, int y)
@@ -46,14 +48,20 @@ namespace RabbitEngine
         }
         uint8_t x8 = 0;
         uint8_t y8 = 0;
-        uint8_t width8 = sdlImage.w/8; 
-        uint8_t height8 = sdlImage.h/8;
-        uint8_t data[width*height];
-        for(int y = 0; y < height; y++) {
-            for(int x = 0; x < width; x++) {
+        uint8_t width8 = sdlImage->w/8; 
+        uint8_t height8 = sdlImage->h/8;
+        uint8_t data[sdlImage->w * sdlImage->h];
+        uint32_t index = 0;
+        for(int i = 0; i < width8 * )
+        for(int y = 0; y < sdlImage->h; y++) {
+            for(int x = 0; x < sdlImage->w; x++) {
                 Uint32 color = getPixel(sdlImage, x, y);
-                uint16_t color16 = Bitmap::RGBA(color>>24, (color>>16) & 0xFF, (color>>8) & 0xFF, (color&0xFF)<127);
-                
+                uint8_t red = color>>24;
+                uint8_t green = (color>>16) & 0xFF;
+                uint8_t blue = (color>>8) & 0xFF;
+                uint8_t alpha = color & 0xFF;
+                uint16_t color16 = Bitmap::RGBA( red, green, blue, alpha<127);
+                data[index] = color16;
             }
         }
         _image = new Bitmap(uint8_t x8, uint8_t y8, uint8_t width8, uint8_t height8, uint8_t *data);

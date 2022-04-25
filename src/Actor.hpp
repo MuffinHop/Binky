@@ -4,6 +4,10 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <cstdint>
+#include <stdint.h>
+#include <inttypes.h>
+#include <stdlib.h>
 #include <SDL.h>
 #include <SDL_image.h>
 using namespace std;

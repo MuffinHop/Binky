@@ -12,14 +12,105 @@ namespace RabbitEngine
     }
 
     /**
+     * @brief Set the Mode 0 object
+     *
+     * @param bitss only 4 or 8-bit sprites and tiles
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode0(uint8_t bits)
+    {
+        if (bits != 4 || bits != 8)
+        {
+            return false;
+        }
+        Bitmap::ChunkyBits = 0;
+        Bitmap::TileSpriteBits = bits;
+        Bitmap::Mode = 0;
+        return true;
+    }
+    /**
+     * @brief Set the Mode 1 object
+     *
+     * @param bits only 4 or 8-bit sprites and tiles
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode1(uint8_t bits)
+    {
+        if (bits != 4 || bits != 8)
+        {
+            return false;
+        }
+        Bitmap::ChunkyBits = 0;
+        Bitmap::TileSpriteBits = bits;
+        Bitmap::Mode = 1;
+        return true;
+    }
+    /**
+     * @brief Set the Mode 2 object, only 8-bits sprites and tiles
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode2()
+    {
+        Bitmap::TileSpriteBits = 8;
+        Bitmap::ChunkyBits = 0;
+        Bitmap::Mode = 2;
+        return true;
+    }
+    /**
+     * @brief Set the Mode 3 - only chunky graphics 8-bits
+     *
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode3()
+    {
+        Bitmap::ChunkyBits = 8;
+        Bitmap::TileSpriteBits = 0;
+        Bitmap::Mode = 3;
+        return true;
+    }
+    /**
+     * @brief Set the Mode 4 - only chunky graphics 16-bits
+     *
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode4()
+    {
+        Bitmap::ChunkyBits = 16;
+        Bitmap::TileSpriteBits = 0;
+        Bitmap::Mode = 3;
+        return true;
+    }
+    /**
+     * @brief Set the Mode 5 - only chunky graphics 16-bits
+     *
+     * @return true
+     * @return false
+     */
+    bool Bitmap::SetMode5()
+    {
+        Bitmap::ChunkyBits = 16;
+        Bitmap::TileSpriteBits = 0;
+        Bitmap::Mode = 3;
+        return true;
+    }
+
+    /**
      * @brief Get palette index.
      *
      * @param color 16-bit color value
      * @return palette index, if -1 then it does not exist.
      */
-    static uint8_t GetPaletteIndex(uint16_t color) {
-        for (uint8_t i = 0; i < Bitmap::PaletteUsed; i++)  {
-            if(Palette[i] == color) {
+    uint8_t GetPaletteIndex(uint16_t color)
+    {
+        for (uint8_t i = 0; i < Bitmap::PaletteUsed; i++)
+        {
+            if (Palette[i] == color)
+            {
                 return i;
             }
         }

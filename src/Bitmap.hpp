@@ -1,5 +1,6 @@
-#include <cstdint>
 #include <stdlib.h>
+#include <stdint.h>
+#include <inttypes.h>
 #ifdef __GBA__
 #define GBA
 #endif
@@ -81,7 +82,9 @@ namespace RabbitEngine
          * ? GBA 8-bit
          * 64 bytes per cell
          */
-        const static bool Mode_8bit = false;
+        static int Mode;
+        static uint8_t TileSpriteBits;
+        static uint8_t ChunkyBits; // also known as Bitmap graphics.
         uint8_t _x8, _y8, _width8, _height8;
         uint8_t *_data;
 
@@ -90,6 +93,53 @@ namespace RabbitEngine
          * @brief How many of the 256 palette is used.
          */
         static int PaletteUsed;
+
+        /**
+         * @brief Set the Mode 0 object
+         * 
+         * @param bitss only 4 or 8-bit sprites and tiles
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode0( uint8_t bits);
+        /**
+         * @brief Set the Mode 1 object
+         * 
+         * @param bits only 4 or 8-bit sprites and tiles
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode1( uint8_t bits);
+        /**
+         * @brief Set the Mode 2 object, only 8-bits sprites and tiles
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode2();
+        /**
+         * @brief Set the Mode 3 - only chunky graphics 8-bits
+         * 
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode3();
+        /**
+         * @brief Set the Mode 4 - only chunky graphics 16-bits
+         * 
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode4();
+        /**
+         * @brief Set the Mode 5 - only chunky graphics 16-bits
+         * 
+         * @return true 
+         * @return false 
+         */
+        static bool SetMode5();
+
+
+
 
         /**
          * @brief Adds color to palette memory
