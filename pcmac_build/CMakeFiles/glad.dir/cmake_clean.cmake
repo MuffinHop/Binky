@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o"
-  "CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o.d"
+  "CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o"
+  "CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o.d"
   "libglad.a"
   "libglad.pdb"
 )

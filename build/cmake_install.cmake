@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sofiasavilampi/Repositories/Binky/pcmac_build
+# Install script for directory: /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/sofiasavilampi/Repositories/Binky/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

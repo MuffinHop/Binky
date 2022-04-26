@@ -1,6 +1,8 @@
 #include "Actor.hpp"
 #include <stdint.h>
 #include <inttypes.h>
+#define STB_IMAGE_IMPLEMENTATION
+#include "../include/stb_image.h"
 namespace RabbitEngine
 {
     Uint32 getPixel(SDL_Surface *surface, int x, int y)
@@ -42,29 +44,63 @@ namespace RabbitEngine
         FrameWidth = frameWidth;
         FrameHeight = frameHeight;
         Timeline = timeline;
-        SDL_Surface* sdlImage = IMG_Load(sourceSpriteSet.c_str());
-        if (sdlImage == NULL) {
-            std::cout << "Error loading image: " << IMG_GetError();
-        }
-        uint8_t x8 = 0;
-        uint8_t y8 = 0;
-        uint8_t width8 = sdlImage->w/8; 
-        uint8_t height8 = sdlImage->h/8;
-        uint8_t data[sdlImage->w * sdlImage->h];
-        uint32_t index = 0;
-        for(int i = 0; i < width8 * )
-        for(int y = 0; y < sdlImage->h; y++) {
-            for(int x = 0; x < sdlImage->w; x++) {
-                Uint32 color = getPixel(sdlImage, x, y);
-                uint8_t red = color>>24;
-                uint8_t green = (color>>16) & 0xFF;
-                uint8_t blue = (color>>8) & 0xFF;
-                uint8_t alpha = color & 0xFF;
-                uint16_t color16 = Bitmap::RGBA( red, green, blue, alpha<127);
-                data[index] = color16;
+
+        #if __GBA__
+
+
+        #else  // On PC and Mac you have to create 
+            int width, height, orig_format;
+            int req_format = STBI_rgb_alpha;
+            unsigned char* u8data = stbi_load(sourceSpriteSet.c_str(), &width, &height, &orig_format, req_format);
+            if (u8data == NULL) {
+                SDL_Log("Loading image failed: %s file: %s", stbi_failure_reason(), sourceSpriteSet.c_str());
+                exit(1);
             }
-        }
-        _image = new Bitmap(uint8_t x8, uint8_t y8, uint8_t width8, uint8_t height8, uint8_t *data);
+
+
+            int depth, pitch;
+            Uint32 pixel_format;
+            if (req_format == STBI_rgb) {
+                depth = 24;
+                pitch = 3*width; // 3 bytes per pixel * pixels per row
+                pixel_format = SDL_PIXELFORMAT_RGB24;
+            } else { // STBI_rgb_alpha (RGBA)
+                depth = 32;
+                pitch = 4*width;
+                pixel_format = SDL_PIXELFORMAT_RGBA32;
+            }
+            uint8_t x8 = 0;
+            uint8_t y8 = 0;
+            uint8_t width8 = width/8; 
+            uint8_t height8 = height/8;
+            uint8_t *data = new uint8_t[width * height];
+            uint32_t srcIndex = 0;
+            uint32_t targetIndex = 0;
+            for(int i = 0; i < width8 * height8; i++) {
+                int base_x = i % width8;
+                int base_y = i / width8;
+                for(int y = 0; y < 8; y++) {
+                    for(int x = 0; x < 8; x++) {
+                        if(depth == 24) {
+                            uint8_t red = u8data[srcIndex++];
+                            uint8_t green = u8data[srcIndex++];
+                            uint8_t blue = u8data[srcIndex++];
+                            uint16_t color16 = Bitmap::RGBA( red, green, blue, true);
+                            data[targetIndex++] = color16;
+                        } else if(depth == 32) {
+                            uint8_t red = u8data[srcIndex++];
+                            uint8_t green = u8data[srcIndex++];
+                            uint8_t blue = u8data[srcIndex++];
+                            uint8_t alpha = u8data[srcIndex++];
+                            uint16_t color16 = Bitmap::RGBA( red, green, blue, alpha>127);
+                            data[targetIndex++] = color16;
+                        }
+                    }
+                }
+            }
+        #endif // if not __GBA__
+
+        _image = Bitmap( width8, height8, data);
     }
     /**
      * @brief Find's the index of a TimelineMark with a specific beat.

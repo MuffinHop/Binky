@@ -1,77 +1,77 @@
 [
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o -c /Users/sofiasavilampi/Repositories/Binky/glad.c",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/glad.c"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/main.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/main.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/main.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp"
 },
 {
-  "directory": "/Users/sofiasavilampi/Repositories/Binky/build",
-  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.o -c /Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp",
-  "file": "/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp"
+  "directory": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build",
+  "command": "/usr/bin/clang++  -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17 -o CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp",
+  "file": "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp"
 }
 ]

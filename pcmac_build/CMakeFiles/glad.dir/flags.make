@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include
+C_INCLUDES = -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
 

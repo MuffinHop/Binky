@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/Binky/pcmac_build/../include
+CXX_INCLUDES = -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/lib/SDL2.framework/Versions/Current/Headers -I/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/../include
 
 CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -F/Library/Frameworks  -std=gnu++17
 

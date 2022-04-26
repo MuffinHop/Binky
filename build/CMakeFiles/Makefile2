@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.23.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/Binky/pcmac_build
+CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/Binky/build
+CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/sdl-imgui.dir/clean
 CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles --progress-num=1,2 "Built target glad"
 .PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles 0
 .PHONY : CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/glad.dir/clean:
 CMakeFiles/sdl-imgui.dir/all: CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target sdl-imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target sdl-imgui"
 .PHONY : CMakeFiles/sdl-imgui.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sdl-imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sdl-imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles 0
 .PHONY : CMakeFiles/sdl-imgui.dir/rule
 
 # Convenience name for target.

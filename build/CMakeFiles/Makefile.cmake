@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.23.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeSystem.cmake"
-  "/Users/sofiasavilampi/Repositories/Binky/pcmac_build/CMakeLists.txt"
+  "/Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"

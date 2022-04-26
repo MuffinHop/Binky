@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.23.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/Binky/pcmac_build
+CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/Binky/build
+CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/glad.dir/depend.make
@@ -69,31 +69,31 @@ include CMakeFiles/glad.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/glad.dir/flags.make
 
-CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o: CMakeFiles/glad.dir/flags.make
-CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o: /Users/sofiasavilampi/Repositories/Binky/glad.c
-CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o: CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o -MF CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o.d -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o -c /Users/sofiasavilampi/Repositories/Binky/glad.c
+CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o: CMakeFiles/glad.dir/flags.make
+CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o: /Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c
+CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o: CMakeFiles/glad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o -MF CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o.d -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o -c /Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c
 
-CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sofiasavilampi/Repositories/Binky/glad.c > CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.i
+CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c > CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i
 
-CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sofiasavilampi/Repositories/Binky/glad.c -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.s
+CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c -o CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
-"CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o"
+"CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o"
 
 # External object files for target glad
 glad_EXTERNAL_OBJECTS =
 
-libglad.a: CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o
+libglad.a: CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o
 libglad.a: CMakeFiles/glad.dir/build.make
 libglad.a: CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/glad.dir/clean:
 .PHONY : CMakeFiles/glad.dir/clean
 
 CMakeFiles/glad.dir/depend:
-	cd /Users/sofiasavilampi/Repositories/Binky/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sofiasavilampi/Repositories/Binky/pcmac_build /Users/sofiasavilampi/Repositories/Binky/pcmac_build /Users/sofiasavilampi/Repositories/Binky/build /Users/sofiasavilampi/Repositories/Binky/build /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/glad.dir/depend
 

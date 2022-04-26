@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.23.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/Binky/pcmac_build
+CMAKE_SOURCE_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/pcmac_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/Binky/build
+CMAKE_BINARY_DIR = /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles /Users/sofiasavilampi/Repositories/Binky/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/Binky/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sofiasavilampi/Repositories/BinkyMultiplatform/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,365 +142,365 @@ sdl-imgui/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/build
 .PHONY : sdl-imgui/fast
 
-Users/sofiasavilampi/Repositories/Binky/glad.o: Users/sofiasavilampi/Repositories/Binky/glad.c.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.c.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.o
 
-Users/sofiasavilampi/Repositories/Binky/glad.i: Users/sofiasavilampi/Repositories/Binky/glad.c.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.c.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.i
 
-Users/sofiasavilampi/Repositories/Binky/glad.s: Users/sofiasavilampi/Repositories/Binky/glad.c.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/Binky/glad.c.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/glad.c.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.c.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.o: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.i: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.s: Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/main.o: Users/sofiasavilampi/Repositories/Binky/main.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/main.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/main.i: Users/sofiasavilampi/Repositories/Binky/main.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/main.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/main.s: Users/sofiasavilampi/Repositories/Binky/main.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/main.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/main.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/Actor.o: Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/Actor.i: Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/Actor.s: Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Actor.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.o: Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.i: Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.s: Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/Bitmap.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.o: Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.i: Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.s: Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/CamLine.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.o: Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.i: Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.s: Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/DataHandler.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.o: Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.i: Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.s: Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.o: Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.i: Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.s: Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.cpp.s
 
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.o: Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.o: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.o
 
 # target to build an object file
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.o
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.o
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.o
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.o
 
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.i: Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.i: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.i
 
 # target to preprocess a source file
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.i
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.i
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.i
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.i
 
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.s: Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.s: Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.s
 
 # target to generate assembly for a file
-Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.s
-.PHONY : Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.cpp.s
+Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl-imgui.dir/build.make CMakeFiles/sdl-imgui.dir/Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.s
+.PHONY : Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.cpp.s
 
 # Help Target
 help:
@@ -512,51 +512,51 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... glad"
 	@echo "... sdl-imgui"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/glad.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/glad.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/glad.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_demo.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_draw.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_opengl3.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_impl_sdl.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/imgui/imgui_widgets.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/main.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/main.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/main.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Actor.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Actor.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Actor.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Bitmap.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Bitmap.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/Bitmap.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/CamLine.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/CamLine.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/CamLine.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/DataHandler.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/DataHandler.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/DataHandler.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/SceneCamera.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/TimeLineMark.s"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.o"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.i"
-	@echo "... Users/sofiasavilampi/Repositories/Binky/src/VisualEditor.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/glad.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_demo.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_draw.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_opengl3.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_impl_sdl.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/imgui/imgui_widgets.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/main.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Actor.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/Bitmap.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/CamLine.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/DataHandler.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/SceneCamera.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/TimeLineMark.s"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.o"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.i"
+	@echo "... Users/sofiasavilampi/Repositories/BinkyMultiplatform/src/VisualEditor.s"
 .PHONY : help
 
 
